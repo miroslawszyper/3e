@@ -1,0 +1,500 @@
+   65  git commit -m "nowy plik"
+   66  ls
+   67  git status
+   68  cat plik
+   69  echo "text" > plik 
+   70  cat plik 
+   71  git status
+   72  git cherry -v
+   73  git status
+   74  git checkout -- plik
+   75  git status
+   76  ls
+   77  rm plik 
+   78  ls
+   79  git status
+   80  ls
+   81  git reset
+   82  ls
+   83  ls
+   84  git status
+   85  git restore plik
+   86  ls
+   87  git status
+   88  echo "admin:pass123" > pass
+   89  ls
+   90  git status
+   91  echo "pass" > .gitignore
+   92  cat .gitignore
+   93  git status
+   94  git clean -xn
+   95  ls
+   96  git status
+   97  git push origin master
+   98  git checkout -b main
+   99  git log
+  100  git checkout main
+  101  touch plik
+  102  ls
+  103  git status
+  104  git restore
+  105  git restore plik
+  106  git status
+  107  git checkout -b master
+  108  git checkout -m master
+  109  git cherry
+  110  git status
+  111  git restore --staged plik
+  112  git status
+  113  ls -nl
+  114  touch .w
+  115  ls -nl
+  116  ls -a
+  117  git checkout
+  118  git status
+  119  git clean -nix
+  120  cd /
+  121  ls
+  122  cd c:
+  123  ls
+  124  cd xampp
+  125  ls
+  126  cd htdocs
+  127  ls
+  128  mkdir git_v2
+  129  cd git_v2
+  130  git clone https://github.com/miroslawszyper/3dg1_v2.git
+  131  ls
+  132  cd 3dg1_v2/
+  133  git status
+  134  git log
+  135  touch file
+  136  ls
+  137  git status
+  138  git log
+  139  git log --oneline
+  140  git status
+  141  git add .
+  142  git status
+  143  git commit -m "add new file" 
+  144  git status
+  145  git log
+  146  git log --oneline
+  147  git checkout 5631a2d
+  148  git checkout main
+  149  git log --oneline
+  150  git checkout 5631a2d filr
+  151  git checkout 5631a2d file
+  152  git status
+  153  echo "text" > file
+  154  git status
+  155  git log --oneline
+  156  git checkout 5631a2d file
+  157  git log --oneline
+  158  git status
+  159  cat file
+  160  echo "text new" >> file 
+  161  cat file
+  162  git status
+  163  git log --oneline
+  164  git checkout 5631a2d
+  165  git checkout main
+  166  git checkout 5631a2d file
+  167  cat file
+  168  git status
+  169  echo "text" > file
+  170  git add .
+  171  git status
+  172  git commit -m "midified file"
+  173  git status
+  174  cat file
+  175  git log --oneline
+  176  git revert 70c595f
+  177  git status
+  178  cat file
+  179  git log --oneline
+  180  rm file
+  181  git status
+  182  git add .
+  183  git commit -m "delete file"
+  184  ls
+  185  git log --oneline
+  186  git revert 1f65f38
+  187  ls
+  188  git log --oneline
+  189  git reset --hard 70c595f
+  190  git log --oneline
+  191  ls
+  192  cat file
+  193  git log
+  194  git log --help
+  195  clear
+  196  alias c=clear
+  197  c
+  198  git log --oneline
+  199  git log
+  200  git log
+  201  git log --author="miroslawszyper"
+  202  git log --author="miroslawszyper" --online
+  203  git log --author="miroslawszyper" --oneline
+  204  git log --author="miroslaw
+  205  q\
+  206  git log
+  207  git log --author="miroslawszyper@gmail.com"
+  208  git log
+  209  git log --author="miroslawszyper"
+  210  git log --author="miroslawszyper" --oneline
+  211  git log --jelp
+  212  git log --help
+  213  git log --grep="add"
+  214  ls
+  215  ls --grep="f"
+  216  ls --grep="f
+  217  q
+  218  ls --grep="file"
+  219  c
+  220  git log
+  221  git log -- file
+  222  git log -- index.php
+  223  git log -- file
+  224  git log --oneline
+  225  touch newfile
+  226  git add .
+  227  git log --oneline
+  228  git -c "add new file"
+  229  git status
+  230  git commit -m "add new file"
+  231  git status
+  232  git log --oneline
+  233  git log
+  234  git log --oneline
+  235  git log --oneline -3
+  236  git log --oneline -1
+  237  git log --oneline --stat
+  238  git log --oneline --stat dir
+  239  git log --oneline --stat --dir
+  240  git log --oneline --stat -- dir
+  241  git log --oneline
+  242  git log --oneline --summary -3
+  243  git log --oneline --summary -1
+  244  git log --oneline --summary -2
+  245  git log --format="%h"
+  246  git log --format="%h %a" 
+  247  git log --format="%h %an" 
+  248  git log --format="%h %an %s" 
+  249  git log --format="%h %an %s %cr" 
+  250  git shortlog
+  251  history
+  252  history > log
+  253  git clone https://github.com/miroslawszyper/3dg2_v2.git
+  254  cd 3dg2_v2/
+  255  alias c=clear
+  256  c
+  257  git log
+  258  touch plik
+  259  git status
+  260  git add .
+  261  git commit -m "dodano nowy plik"
+  262  git log
+  263  git log --help
+  264  git log 
+  265  c
+  266  git log 
+  267  git log --oneline
+  268  git log --author="miroslawszyper"
+  269  c
+  270  git log --author="miroslawszyper" --oneline
+  271  git log --author="miroslawszyper" --oneline --grep="plik"
+  272  git log --author="miroslawszyper" --oneline --grep="3bb1"
+  273  git log --author="miroslawszyper" --oneline --grep="ini"
+  274  git log --author="miroslawszyper" --oneline --grep="initial"
+  275  git log --author="miroslawszyper" --oneline --grep="Initial"
+  276  git log --author="miroslawszyper" --oneline --grep="Init"
+  277  c
+  278  echo "test" > plik 
+  279  git status
+  280  git log --author="miroslawszyper" --oneline
+  281  git add .
+  282  git commit -m "modyfikacja pliku o nazwie plik"
+  283  git log --author="miroslawszyper" --oneline
+  284  git log -1
+  285  git log 1
+  286  git log -2
+  287  git log -20
+  288  touch newfile
+  289  git add .
+  290  git commit -m "dodano newfile"
+  291  git log -20
+  292  git log -- file
+  293  git log -- newfile
+  294  ls
+  295  git log -- oneline
+  296  git log -- newfile
+  297  git log --newfile
+  298  git log -- oneline
+  299  git log
+  300  git log --oneline
+  301  git checkout f16c97a
+  302  git log --oneline
+  303  git checkout dc6903c
+  304  git log --oneline
+  305  ls
+  306  touch file
+  307  git checkout main
+  308  git log --oneline
+  309  toch file
+  310  touch file
+  311  git add .
+  312  git commit -m "add new file"
+  313  git log --oneline
+  314  ls
+  315  git log --patch -- .
+  316  git log --oneline
+  317  git log --patch -- .
+  318  echo "text" > file
+  319  git add .
+  320  git commit -m "modyfikacja pliku"
+  321  git log --patch -- .
+  322  c
+  323  git --sumamry .
+  324  git --summamry .
+  325  git --summary .
+  326  git --summary file
+  327  git log --summary 
+  328  git log --summary file
+  329  git log --summary file -1
+  330  git log --summary -1 file
+  331  git log --summary --stat file
+  332  git log --format="%h"
+  333  git log --format="%h %an"
+  334  git log --format="%h %an %s"
+  335  git log --format="%h %an %s (%cr)"
+  336  git shortlog
+  337  c
+  338  history
+  339  history
+  340  git clone https://github.com/miroslawszyper/3eg1.git
+  341  cd 3eg1
+  342  alias c=clear
+  343  c
+  344  git log
+  345  touch file
+  346  git log
+  347  c
+  348  c
+  349  git log
+  350  git add .
+  351  git commit -m "dodanie pliku file"
+  352  git status
+  353  c
+  354  git log
+  355  ls
+  356  c
+  357  git log --help
+  358  git log
+  359  echo "text" > file
+  360  git add .
+  361  git commit -m "modyfikacja pliku file"
+  362  c
+  363  git log
+  364  c
+  365  git log --oneline
+  366  git log --oneline > log
+  367  git log --author="miroslawszyper"
+  368  git log --author="miroslawszyper" --oneline
+  369  touch egzamin
+  370  git add .
+  371  git commit -m "new file egzamin"
+  372  git log --author="miroslawszyper" --oneline
+  373  git log --author="miroslawszyper" --grep="egzamnin"
+  374  git log --author="miroslawszyper" --grep="egzamin"
+  375  git log --author="miroslawszyper" --online
+  376  git log --author="miroslawszyper" --oneline
+  377  git log --author="miroslawszyper" --oneline -1
+  378  git log --author="miroslawszyper" --oneline -3
+  379  git log --author="miroslawszyper" --oneline -30
+  380  git log --author="miroslawszyper" --oneline egzamin
+  381  git log --author="miroslawszyper" --oneline file
+  382  mkdir test
+  383  git log --author="miroslawszyper" --oneline --file
+  384  git log --author="miroslawszyper" --oneline -- file
+  385  git log --author="miroslawszyper" --oneline -- test
+  386  touch test/plik.txt
+  387  echo "text" >> text/plik.txt
+  388  echo "text" >> test/plik.txt
+  389  git add .
+  390  git commit -m "dodanie i modyfikacja nowego pliku"
+  391  git log --author="miroslawszyper" --oneline -- test
+  392  git log --author="miroslawszyper" --oneline --patch -- test
+  393  c
+  394  git log --author="miroslawszyper" --oneline --patch -- test
+  395  git log --author="miroslawszyper" --oneline --patch .
+  396  c
+  397  git log --author="miroslawszyper" --oneline --patch -- test
+  398  echo "papier" > test\plik.txt
+  399  git add .
+  400  git commit -m "modyfikacja pliku"
+  401  git log --author="miroslawszyper" --oneline --patch -- test
+  402  echo "linia 1" > text\plik.txt
+  403  echo "linia 2" >> text\plik.txt
+  404  echo "linia 3" >> text\plik.txt
+  405  git add .
+  406  git commit -m "modyfikacja pliku dodano trzy linie"
+  407  cat test\plik.txt 
+  408  echo "linia 3" >> test\plik.txt
+  409  echo "linia 2" >> test\plik.txt
+  410  git add .
+  411  git commit -m "modyfikacja pliku dodano trzy linie"
+  412  git log --author="miroslawszyper" --oneline --patch -- test
+  413  git log --oneline --patch test
+  414  git log --oneline --summary -- test
+  415  git log --oneline --summary -- .
+  416  git log --oneline --stat
+  417  git log --oneline --stat test\plik.txt
+  418  c
+  419  git log --oneline --format="%h"
+  420  git log --oneline --format="%h an"
+  421  git log --oneline --format="Identyfikator: %h, autor: %an"
+  422  git log --oneline --format="Identyfikator: %h, autor: %an, opis commita: %s"
+  423  git log --oneline --format="Identyfikator: %h, autor: %an, opis commita: %s, data: %cr"
+  424  git log --oneline --format="Identyfikator: %h, autor: %an, opis commita: %s, ile czasu: %cr"
+  425  git shortlog
+  426  history > historia
+  427  cd ..
+  428  ls
+  429  git clone https://github.com/miroslawszyper/3eg2_v2.git
+  430  cd 3eg2_v2
+  431  c
+  432  git log
+  433  ls
+  434  touch plik
+  435  git add .
+  436  git commit -m "add new plik"
+  437  git log
+  438  git log --help
+  439  c
+  440  git log --author="miroslawszyper"
+  441  git log --author="miroslawszyper1"
+  442  git log --author="miroslawszyper1" --oneline
+  443  git log --author="miroslawszyper" --oneline
+  444  ls
+  445  echo "text" >> plik
+  446  git status
+  447  git add .
+  448  git status
+  449  git commit -m "modyfikacja pliku"
+  450  git log --author="miroslawszyper" --oneline
+  451  git log --author="miroslawszyper"
+  452  git log --oneline --grep="plik" 
+  453  git log --oneline --grep="modyfikacja" 
+  454  git log --oneline 
+  455  git log --oneline -1
+  456  git log --oneline -3
+  457  git log --oneline -30
+  458  git log --oneline -- plik
+  459  git log --oneline --plik
+  460  git log --oneline -- plik
+  461  git log --oneline --patch -- plik
+  462  echo "nowa linia" >> plik
+  463  git add .
+  464  git commit -m "modyfikacja pliku"
+  465  git log --oneline --patch -- plik
+  466  git log --oneline git log --author="miroslawszyper" git log --author="miroslawszyper" git log
+  467  git log --patch -- plik
+  468  echo "nadpisanie pliku" > plik
+  469  git add .
+  470  git commit -m "nadpisanie pliku"
+  471  git log --patch -- plik
+  472  c
+  473  git log --summary -- plik
+  474  git log --stat -- plik
+  475  git log --stat --summary -- plik
+  476  c
+  477  git shortlog
+  478  git log --format="%h"
+  479  git log --format="Identyfikator: %h"
+  480  git log --format="Identyfikator: %h, autor: %an"
+  481  git log --format="Identyfikator: %h, autor: %an, commit: %s"
+  482  git log --format="Identyfikator: %h, autor: %an, commit: %s, czas: %cr"
+  483  git log --format="Identyfikator: %h, autor: %an, commit: %s, czas: %cr" -- plik
+  484  git log --format="Identyfikator: %h, autor: %an, commit: %s, czas: %cr" -- plik > log_2023_01_23
+  485  mkdir dir
+  486  touch dir/dirfile
+  487  git add .
+  488  git commit -m "doanie nowego pliku w katalogu"
+  489  git log --patch --online -- dir
+  490  git log --patch --oneline -- dir
+  491  git log --oneline
+  492  ls
+  493  git shortlog
+  494  git checkout 5e54d64
+  495  ls
+  496  git shortlog
+  497  git checkout main
+  498  git shortlog
+  499  ls
+  500  history > historia
+  501  git clone https://github.com/miroslawszyper/3e.git
+  502  ls
+  503  cd 3e
+  504  alias c=clear
+  505  c
+  506  git log
+  507  git log --oneline
+  508  touch plikwyklad
+  509  ls
+  510  git status
+  511  git add .
+  512  git status
+  513  git commit -m "dodanie pliku na wykladzie"
+  514  ls
+  515  cat plikwyklad
+  516  git log --oneline
+  517  ls
+  518  git checkout 3154d0e
+  519  ls
+  520  git checkout main
+  521  ls
+  522  c
+  523  git log --patch
+  524  git log --patch --oneline
+  525  ls
+  526  echo "tekst" > plikwyklad 
+  527  cat plikwyklad 
+  528  git log --patch --oneline
+  529  git add .
+  530  git commit -m "modyfikacja pliku na wyklad"
+  531  git log --patch --oneline
+  532  git log --patch --oneline -- plikwyklad
+  533  echo "dopisanie danych" >> plikwyklad 
+  534  git add .
+  535  git commit -m "dopisanie danych do pliku"
+  536  git log --patch --oneline -- plikwyklad
+  537  echo "nadpisanie danych " > plikwyklad 
+  538  git log --patch --oneline -- plikwyklad
+  539  c
+  540  git log --patch --oneline -- plikwyklad
+  541  git status
+  542  git commit -m "nadpisanie danych w pliku wyklad"
+  543  git add .
+  544  git commit -m "nadpisanie danych w pliku wyklad"
+  545  git log --patch --oneline -- plikwyklad
+  546  git push
+  547  cat plikwyklad 
+  548  c
+  549  git shortlog
+  550  git checkout 3b9e0f5
+  551  git shortlog
+  552  git push
+  553  git push origin main
+  554  git checkout main
+  555  git shortlog
+  556  git reset --hard 3b9e0f5
+  557  git shortlog
+  558  cat plikwyklad 
+  559  git push
+  560  git status
+  561  git push origin main
+  562  git push --force main
+  563  git push --force origin main
+  564  history > historia
